@@ -37,7 +37,6 @@ body {
 	color: var(--pink);
 	font-size: 5rem;
 	font-weight: bold;
-	text-position: center;
 }
 
 .hero h2 {
@@ -77,8 +76,9 @@ body {
 
 .mynavbar .navbar-brand, .mynavbar .offcanvas-title {
 	font-family: 'Sacramento', cursive;
-	font-size: 2.2rem;
+	font-size: 1.2rem;
 	font-weight: bold;
+	margin-top: 1rem;
 }
 
 .mynavbar .nav-link {
@@ -103,20 +103,19 @@ body {
 	margin-top: -9.7rem;
 }
 
-.home h3 {
-	color: #444;
-	font-size: 1.5rem;
-	margin-bottom: 1rem;
-}
-
 .home p {
 	font-size: 1.1rem;
 	color: #555;
-	margin-top: -1rem;
+	margin-top: 0.5rem;
+}
+
+.home h3 {
+	color: #444;
+	font-size: 1.3rem;
 }
 
 .home .couple {
-	margin-top: 100px;
+	margin-top: 50px;
 	text-shadow: var(--shadow);
 }
 
@@ -172,12 +171,12 @@ body {
 }
 
 .info .card-body {
-	font-size: 1rem;
+	font-size: 1.3rem;
 }
 
 .info .card-footer {
 	border-top: 1px solid #999;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-weight: 300;
 	color: black !important;
 }
@@ -378,15 +377,15 @@ footer li {
 
 
 /* Media Query */
+
 /* Laptop */
-@Media (max-width: 992px){
+@Media (max-width: 992px) {
 	html{
 		font-size: 65%;
 }
 
-.simply-countdown>.simply-section{
+.simply-countdown > .simply-section {
 	padding: 70px;
-	margin: 10px;
 }
 
 .timeline::before {
@@ -423,17 +422,17 @@ right: auto;
 /* Tablet */
 @Media (max-width: 768px){
 	html{
-		font-size: 55%;
+	font-size: 65%;
 }
 
-.simply-countdown>.simply-section{
+.simply-countdown > .simply-section {
 	padding: 60px;
 	margin: 5px;
 }
 
 .mynavbar .nav-link {
-	text-align: center;
 	font-size: 2rem;
+	text-align: center;
 }
 
 .sticky-top {
@@ -448,19 +447,19 @@ right: auto;
 
 
 /* Moblie Phone */
-@Media (max-width: 576spx){
+@Media (max-width: 576px) {
 	html{
-		font-size: 50%;
+		font-size: 60%;
 }
 
-.simply-countdown>.simply-section{
-	padding: 45px;
+.simply-countdown > .simply-section {
+	padding: 40px;
 	margin: 3px;
 }
 
 .mynavbar .offcanvas, .mynavbar .nav-link {
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 
 .timeline li .timeline-image {
@@ -479,5 +478,4 @@ right: auto;
 
 .timeline li .timeline-panel::after {
 	top: 31px;
-}
-}
+}}
